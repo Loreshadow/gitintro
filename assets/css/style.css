@@ -7,3 +7,34 @@ header {
 body {
     margin: 0px;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 40px;
+}
+
+form .form-field, form .form-submit {
+    width: 40%;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #ffb6c1;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
